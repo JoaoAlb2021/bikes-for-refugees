@@ -78,6 +78,9 @@ p {
   font-weight: 600;
   text-transform: uppercase;
   text-decoration: none;
+  padding: 0.5rem 2rem;
+  margin: 0 5px;
+  border: 2px dashed red;
 }
 
 
