@@ -136,6 +136,12 @@ p {
   font-size: 2.5rem;
 }
 
+@media (max-width:380px){
+  .hero h1{
+    font-size: 1.875rem;
+  }
+}
+
 .hero p {
   font-size: 1.2rem;
   margin-bottom: 2rem;
@@ -168,8 +174,20 @@ p {
 
 /* Article */
 
+.articles{
+  display: flex;
+}
+
+article:nth-child(1){
+  background-color: lightgray;
+  margin-right: 1rem;
+}
+
 .article {
   margin-bottom: 1rem;
+  padding: 1rem;
+  border: solid 2px rgba(139, 139, 139, 0.486);
+  flex-grow: 0;
 }
 
 .article__title {
